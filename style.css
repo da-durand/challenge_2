@@ -1,29 +1,31 @@
-* {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
 
 body{
     font-family: Helvetica, sans-serif;
     background-image: url(images/bg.png);
+    
 }
-
-header{
+#container{
     margin: auto;
     width: 994px;
-    padding: 0, 47px;
+    background-color: white;
+    padding:50px 0 1em 0;
+}
+header{
+    width:900px; 
+    margin: auto;
 }
 
 h1{
-    margin-top: 50px;
+    font-size: 50px;
+    padding-bottom: .2em;
 }
 
 header > img{
     float: right;
     position: initial;
+    width:34px;
+    height: 22px;
+    margin:0; 
 }
 
 h2{
@@ -32,14 +34,16 @@ h2{
 
 nav{
     background-color: #A6A6A6;
-    padding: 20.5px;
+    
     width: 900px;
 }
 
 
 ul li:not(.list){
     display: inline-block;
-    padding: 0 2.3%;
+    width: 16.2%;
+    text-align: center;
+    padding: 20.5px 0;
 }
 
 .list{
@@ -47,20 +51,80 @@ ul li:not(.list){
     list-style: none;
     background-color: #A6A6A6;
     text-align: center;
-    padding: 13.5px 20px;
+    padding: 13.5px 0;
+
 }
 
+#menu{
+    width:11%;
+}
 li a{
     text-decoration: none;
     color: #505050;
 }
 
 ul ul{
-    /* display: none; */
+    display: none;
     position: absolute;
     margin-top: 20px;
 }
 
 ul li:hover ul{
     display: block;
+}
+main img {
+    width:900px;
+    height: 508px;
+    margin: 25px 0 38px 0;
+    
+}
+main{
+    margin: auto;
+    width: 900px;
+}
+main h2{
+    text-align: center;
+    font-size: 35px;
+}
+h6{
+    text-align: center;
+    font-size: 12px;
+    color: #606060;
+}
+span{
+    font-weight: bold;
+}
+main p {
+    margin-top: 30px;
+    font-size: 14px;
+    color:#505050;
+}
+hr{
+    height: 40px;
+    margin-top: 2em;
+    background-color: #A6A6A6;
+}
+footer{
+    width: 900px;
+    margin: auto;
+}
+h3{
+    text-align: center;
+    padding: 29.5px 0;
+
+}
+section{
+    background-color: #A6A6A6;
+}
+article{
+    vertical-align: top;
+    display: inline-block;
+    width: 21%;
+    padding:1em;
+}
+article p span{
+    color:#606060;
+}
+article p{
+    font-size: 14px;
 }
